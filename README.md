@@ -1,6 +1,6 @@
-# Po-Fo
+# Port-Link
 ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)  ![GitHub](https://img.shields.io/badge/license-Apache-blue?style=popout-square) [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
-[![contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tusharkeshav/Port-Forwarder)
+[![contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/abhishek17569/Port-Link)
 
 Dynamic Ngrok is a command line interface that ensure your port forwarding will up and work without an issue.
 * It ensure that ngrok generated url always pointed to your custom alias.
@@ -24,9 +24,9 @@ Service uses cuttly url shortening service.
 - Host a server. No need to rely for costly servers(if yor doing it for temporary purposes)
 
 ## First time installation:
-* [Set up ngrok auth-token manually](https://github.com/tusharkeshav/Port-Forwarder/wiki/Setting-ngrok-auth-token). It can be done using `python3 main.py --ngrok_auth_token <auth-token>`
-* [Get api key from cut.ly](https://github.com/tusharkeshav/Port-Forwarder/wiki/Setting-up-Cutt.ly-API)
-* [Generate Ngrok API secret](https://github.com/tusharkeshav/Port-Forwarder/wiki/Generating-Ngrok-API-Key)
+* [Set up ngrok auth-token manually](https://github.com/abhishek17569/Port-Link.wiki.git:). It can be done using `python3 main.py --ngrok_auth_token <auth-token>`
+* [Get api key from cut.ly](https://github.com/abhishek17569/Port-Link.wiki.git)
+* [Generate Ngrok API secret](https://github.com/abhishek17569/Port-Link.wiki.git:)
 > __Note__: NGROK API secret is different from NGROK AUTH-TOKEN. NGROK API secret is use to authenticate api and NGROK auth-token is used to access establish a successful tunnel/port forwarding on behealf of particular user account.
 
 ## Configurations: (path: /properties/config.ini)
@@ -44,7 +44,7 @@ PROTOCOL_PORT = ["http","456"] # set your protocol and port you want to forward.
 
 ## Installation:
 ```
-git clone https://github.com/tusharkeshav/Port-Forwarder.git
+git clone https://github.com/abhishek17569/Port-Link.git
 pip3 install -r requirements.txt
 python3 main.py
 ```
@@ -58,7 +58,7 @@ sudo docker run exec <container-name or container-id> tail -50f /app/log/Applica
 ```
 
 ## FAQ
-- [How to use](https://github.com/tusharkeshav/Port-Forwarder/wiki/How-to-use) </br>
-- [Passing Config via Arguments](https://github.com/tusharkeshav/Port-Forwarder/wiki/Passing-config-via-args:) </br>
+- [How to use](https://github.com/abhishek17569/Port-Link.wiki.git) </br>
+- [Passing Config via Arguments](https://github.com/abhishek17569/Port-Link.wiki.git:) </br>
 We have provided ngrok binary with this as well. It's same binary provided by ngrok. You can verify via checksum.
 Follow wiki for more.
